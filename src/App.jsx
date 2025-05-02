@@ -1,12 +1,15 @@
 import BemVindo from "./BemVindo";
 import Bolo from "./Bolo";
 import Carro from "./Carro";
+import Contador from "./Contados";
+import Interruptor from "./Interruptor";
+import Menu from "./Menu";
 import Musica from "./Musica";
 
 const App = () => {
   return ( 
     <>
-      <h1>Ola mundo</h1>
+      {/* <h1>Ola mundo</h1>
       <BemVindo nome="Ailana" cidade="Aquiraz"/>
       <BemVindo nome="André" cidade="Fortaleza"/>
       <BemVindo nome="Marcio" cidade="Fortaleza"/>
@@ -19,7 +22,10 @@ const App = () => {
 
       <Carro modelo="Civic" marca="Honda"/>
 
-      <Musica instrumento="piano" banda="Bon Jovi"/>
+      <Musica instrumento="piano" banda="Bon Jovi"/> */}
+      {/* <Contador/>
+      <Interruptor/> */}
+      <Menu/>
     </>
    );
 }
