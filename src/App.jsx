@@ -23,9 +23,9 @@ const App = () => {
       <Carro modelo="Civic" marca="Honda"/>
 
       <Musica instrumento="piano" banda="Bon Jovi"/> */}
-      {/* <Contador/>
-      <Interruptor/> */}
-      <Menu/>
+      {/* <Contador/> */}
+      <Interruptor/>
+      {/* <Menu/>*/}
     </>
    );
 }
